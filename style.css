@@ -94,9 +94,9 @@ tr:nth-child(even) {
   background: #d0c9cf;
 }
 
-/* tr:hover {
+tr:hover {
   background: #d2429b;
-} */
+}
 
 footer {
   background-color: #1e1e1e;
