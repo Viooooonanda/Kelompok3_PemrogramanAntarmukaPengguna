@@ -31,15 +31,14 @@ header h1 {
 } 
  
 header h2 { 
-    font-size: 20px; 
-    font-weight: normal; 
+    font-size: 30px; 
 } 
 
 /* container utama: layout flex dengan 2 kolom*/
 .main-container { 
     display: flex; 
     flex-direction: row; 
-    gap: 20px; 
+    gap: 30px; 
     padding: 25px; 
     /* width: 100%;  */
     max-width: 1700px; 
