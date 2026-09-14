@@ -1,9 +1,11 @@
+
 * { 
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
 } 
- 
+
+/* style dasar body */
 body { 
     font-family: 'Times New Roman', Times, serif; 
     background-color: #E5F4DF; 
@@ -12,6 +14,7 @@ body {
     font-size: 20px; 
 } 
  
+/* header */
 header { 
     background-color: #193C2F; 
     color: #F1F8ED; 
@@ -32,7 +35,8 @@ header h2 {
     font-size: 30px; 
     font-weight: normal; 
 } 
- 
+
+/* container utama: layout flex dengan 2 kolom*/
 .main-container { 
     display: flex; 
     flex-direction: row; 
@@ -41,7 +45,8 @@ header h2 {
     max-width: 1700px; 
     margin: 0 auto; 
 } 
- 
+
+/* kolom kiri : kontent utama */
 .content { 
     flex: 2; 
     background: #F1F8ED; 
@@ -49,7 +54,8 @@ header h2 {
     border-radius: 10px; 
     border: 2px solid #344E41; 
 } 
- 
+
+/* kolom kanan */
 .sidebar-right { 
     flex: 1; 
     background: #F1F8ED; 
@@ -57,18 +63,21 @@ header h2 {
     border-radius: 10px; 
     border: 2px solid #344E41; 
 } 
- 
+
+/* untuk yang heading 3 */
 h3 { 
     color: #294936; 
     margin-bottom: 10px; 
     margin-top: 15px; 
 } 
  
+/* list */
 ul, ol { 
     padding-left: 20px; 
     margin-bottom: 15px; 
 } 
  
+/* style tabel */
 table { 
     width: 100%; 
     border-collapse: collapse; 
@@ -76,34 +85,37 @@ table {
     margin-bottom: 20px; 
 } 
  
+/* sel dalam tabel */
 th, td { 
-    border: 1px solid #8FB89A; 
+    border: 1px solid #8FB89C; 
     padding: 10px; 
     text-align: left; 
     vertical-align: middle; 
 } 
- 
+
+/* header tabel */
 th { 
     font-weight: bold; 
     text-align: center; 
+    background: #8FB89A;
 } 
  
-.text-center { 
-    text-align: center; 
-} 
- 
+/* warna baris tabel ganjil */
 tr:nth-child(odd) { 
     background-color: #EEF7EA; 
 } 
  
+/* warna baris tabel genap */
 tr:nth-child(even) { 
     background: #D5EACD; 
 } 
- 
+
+/* efek hover pada baris tabel */
 tr:hover { 
     background: #E5F4DF; 
 } 
  
+/* footer */
 footer { 
     background-color: #193C2F; 
     color: #F1F8ED; 
