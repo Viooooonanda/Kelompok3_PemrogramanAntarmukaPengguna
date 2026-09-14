@@ -11,7 +11,7 @@ body {
     background-color: #E5F4DF; 
     color: #263238; 
     line-height: 1.6; 
-    font-size: 20px; 
+    font-size: 40px; 
 } 
  
 /* header */
@@ -26,13 +26,12 @@ header {
 } 
  
 header h1 { 
-    font-size: 24px; 
     margin-bottom: 5px; 
-    font-size: 40px; 
+    font-size: 70px; 
 } 
  
 header h2 { 
-    font-size: 30px; 
+    font-size: 50px; 
     font-weight: normal; 
 } 
 
@@ -41,8 +40,9 @@ header h2 {
     display: flex; 
     flex-direction: row; 
     gap: 20px; 
-    padding: 20px; 
-    max-width: 1700px; 
+    padding: 25px; 
+    /* width: 100%;  */
+    max-width: 3500px; 
     margin: 0 auto; 
 } 
 
@@ -59,7 +59,7 @@ header h2 {
 .sidebar-right { 
     flex: 1; 
     background: #F1F8ED; 
-    padding: 15px; 
+    padding: 35px; 
     border-radius: 10px; 
     border: 2px solid #344E41; 
 } 
@@ -97,7 +97,7 @@ th, td {
 th { 
     font-weight: bold; 
     text-align: center; 
-    background: #8FB89A;
+    background: #D5EACD;
 } 
  
 /* warna baris tabel ganjil */
@@ -121,7 +121,7 @@ footer {
     color: #F1F8ED; 
     text-align: center; 
     padding: 15px; 
-    font-size: 20px; 
+    font-size: 40px; 
     margin-top: 20px; 
     border-radius: 10px; 
     border: 5px solid white; 
