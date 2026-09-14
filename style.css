@@ -83,6 +83,7 @@ table {
     border-collapse: collapse; 
     margin-top: 15px; 
     margin-bottom: 20px; 
+    /* table-layout: fixed; */
 } 
  
 /* sel dalam tabel */
@@ -99,7 +100,17 @@ th {
     text-align: center; 
     background: #D5EACD;
 } 
- 
+
+/* atur lebar kolom  kelompok */
+th:nth-child(1), td:nth-child(1) {
+  width: 150px; 
+}
+
+/* atur lebar kolom nama anggota kelompok */
+th:nth-child(3), td:nth-child(3) {
+  width: 300px; 
+}
+
 /* warna baris tabel ganjil */
 tr:nth-child(odd) { 
     background-color: #EEF7EA; 
